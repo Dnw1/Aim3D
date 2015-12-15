@@ -45,8 +45,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\backAndForth.cs" />
-     <Compile Include="Assets\Scripts\turnObject.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Traps\backAndForth.cs" />
+     <Compile Include="Assets\Scripts\Traps\bomb.cs" />
+     <Compile Include="Assets\Scripts\Traps\moveOneWay.cs" />
+     <Compile Include="Assets\Scripts\Traps\teleport.cs" />
+     <Compile Include="Assets\Scripts\Traps\turnObject.cs" />
+     <Compile Include="Assets\Scripts\Ui\Instructions.cs" />
+     <Compile Include="Assets\Scripts\Ui\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\Ui\credits.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
