@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\StaticsGD2B\Assets\Scripts\GoblinSpawner.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\Health\Check.cs">
     <Files>
-      <File FileName="..\StaticsGD2B\Assets\Scripts\GoblinSpawner.cs" Line="15" Column="6" />
-      <File FileName="..\StaticsGD2B\Assets\Scripts\Enemy.cs" Line="8" Column="17" />
+      <File FileName="Assets\Scripts\Player\Health\HpManager.cs" Line="8" Column="30" />
+      <File FileName="Assets\Scripts\Player\Controller.cs" Line="15" Column="3" />
+      <File FileName="Assets\Scripts\Player\Health\Check.cs" Line="9" Column="72" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -7,11 +7,11 @@ public class MainMenu : MonoBehaviour {
 	public GUISkin guiskin;
 	
 	void OnGUI(){
-		GUI.Box (new Rect (Screen.width * 0.32f, Screen.height * 0.08f, 575, 575), "Main Menu: -");
+		GUI.Box (new Rect (Screen.width * 0.28f, Screen.height * 0.08f, 575, 575), "Main Menu:");
 		
 		if(GUI.Button(new Rect(Screen.width * 0.42f,Screen.height * 0.35f,Screen.width * 0.2f,Screen.height * 0.1f), "Play")){
-			Application.LoadLevel("main");
-		}   //Scene is de scene van de game.
+			Application.LoadLevel("LevelSelector");
+		}
 		if (GUI.Button (new Rect (Screen.width * 0.42f, Screen.height * 0.5f, Screen.width * 0.2f, Screen.height * 0.1f), "Credits")) {
 			Application.LoadLevel("Credits");
 		}
