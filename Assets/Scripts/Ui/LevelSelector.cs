@@ -6,7 +6,7 @@ public class LevelSelector : MonoBehaviour {
 	public GUISkin guiskin;
 	
 	void OnGUI(){
-		GUI.Box (new Rect (Screen.width * 0.28f, Screen.height * 0.08f, 575, 575), "Level Selector:");
+		GUI.Box (new Rect (Screen.width * 0.33f, Screen.height * 0.08f, 575, 575), "Level Selector:");
 		
 		if(GUI.Button(new Rect(Screen.width * 0.42f,Screen.height * 0.35f,Screen.width * 0.2f,Screen.height * 0.1f), "Tutorial")){
 			Application.LoadLevel("Tutorial");

@@ -5,7 +5,7 @@ using System.Collections;
 public class  HpManager : MonoBehaviour {
 
 	public static HpManager instance;
-	public int playerHealth = 2;
+	public int playerHealth = 3;
 	
 	void Start()
     {
