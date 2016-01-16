@@ -8,14 +8,14 @@ public class TextIntro : MonoBehaviour {
 
 	void OnTriggerEnter(Collider col)
 	{
-		if (col.transform.name == "Player") {
+		if (col.transform.name == "Player1" || col.transform.name == "Player2") {
 			display = true;
 		}
 	}
 
 	void OnTriggerExit(Collider col)
 	{
-		if (col.transform.name == "Player") 
+		if (col.transform.name == "Player1" || col.transform.name == "Player2") 
 		{
 			display = false;
 		}
@@ -25,7 +25,7 @@ public class TextIntro : MonoBehaviour {
 	{
 		if (display == true) 
 		{
-			GUI.Box (new Rect(100,150,Screen.width-200, Screen.height-400), text);
+			GUI.Box (new Rect(360,300,Screen.width-700, Screen.height-650), text);
 		}
 	}
 }
