@@ -7,7 +7,7 @@ public class Credits : MonoBehaviour {
 	public GUISkin guiskin;
 
 	void OnGUI(){
-		GUI.Box (new Rect (Screen.width * 0.33f, Screen.height * 0.08f, 575, 575), "Credits");
+		GUI.Box (new Rect (Screen.width * 0.30f, Screen.height * 0.08f, 575, 575), "Credits");
 		GUI.Label (new Rect (Screen.width * 0.48f,Screen.height * 0.21f,Screen.width * 0.2f,Screen.height * 0.1f), "Beau van Boxtel");
 		GUI.Label (new Rect (Screen.width * 0.48f, Screen.height * 0.27f, Screen.width * 0.2f, Screen.height * 0.1f), "Kevin Weppnerl");
 		GUI.Label (new Rect (Screen.width * 0.48f, Screen.height * 0.33f, Screen.width * 0.2f, Screen.height * 0.1f), "Dylan Waij");

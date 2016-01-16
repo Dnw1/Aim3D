@@ -3,8 +3,8 @@ using System.Collections;
 
 public class Timer : MonoBehaviour {
 
-	private float time = 10f;
-	private float limit = 800f;
+	private float time = 32f;
+	private float limit = 1200f;
 	private Vector3 currentLocation;
 
 	// Use this for initialization

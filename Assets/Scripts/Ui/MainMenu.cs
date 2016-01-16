@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour {
 	public GUISkin guiskin;
 	
 	void OnGUI(){
-		GUI.Box (new Rect (Screen.width * 0.33f, Screen.height * 0.08f, 575, 575), "Main Menu:");
+		GUI.Box (new Rect (Screen.width * 0.30f, Screen.height * 0.08f, 575, 575), "Main Menu:");
 		
 		if(GUI.Button(new Rect(Screen.width * 0.42f,Screen.height * 0.35f,Screen.width * 0.2f,Screen.height * 0.1f), "Play")){
 			Application.LoadLevel("LevelSelector");
